@@ -35,7 +35,8 @@ Algorithms and Resources Used
         
         3) Research Paper and CNN:
             A previously published research paper that is similar to given problem statement was referenced and studied.
-            The pretrained CNN model 'DarkNet' was used for training the data.
+            The pretrained CNN model 'DarkNet' was specifically used for object detection. The link to downoad the
+            trained model is specified in the notebook. (cell 5)
 
             Paper -  https://arxiv.org/abs/1612.08242
             Tutorial - https://www.youtube.com/watch?v=n9_XyCGr-MI&t=4s&ab_channel=AladdinPersson
