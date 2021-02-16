@@ -9,8 +9,9 @@ Instruction for Testing:
         CV2
         Matplotlib
 
-    Place the image required for testing in the same folder.
+    Place the image required for testing in the same directory.
     Rename IMAGE_PATH variable (cell number 3) to name of the image that you want to test.
+    Running cell number 5 initiates a download of a trained model. Downoaded file should be in the same directory of the notebook.
     Run all other cells as is, in the same order.
 
 Algorithms and Resources Used
