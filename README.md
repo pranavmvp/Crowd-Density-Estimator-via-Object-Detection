@@ -3,37 +3,35 @@ Image Segmentation and Crowd Density Estimator
 
 Instruction for Testing:
 
-   Requirements -
+Requirements -
         Numpy
         PyTorch
         CV2
         Matplotlib
 	Flask
 
-   Testing for Jupyter Notebook:
-    Place the image required for testing in the same folder.
-    Rename IMAGE_PATH variable (cell number 3) to name of the image that you want to test.
-Running cell number 5 initiates a download of a trained model (pre-trained weights). Downoaded file should be in the same directory of the notebook.
-    Run all other cells as is, in the same order.
+Testing for Jupyter Notebook:
+	Place the image required for testing in the same folder.
+    	Rename IMAGE_PATH variable (cell number 3) to name of the image that you want to test.
+     	Running cell number 5 initiates a download of a trained model (pre-trained weights). Downoaded file should be in the same directory of the notebook.
+    	Run all other cells as is, in the same order.
 
-   Testing for API:
-    Make sure pre-trained weights are available.
-    Execute app.py from terminal
-    View the page at localhost:5000 or http://127.0.0.1:5000/ in your browser.
-    Choose your input image (from anywhere on your PC), and click submit.
-    A copy of the input image, and the output are stored directly in the same directory.
+Testing for API:
+	Make sure pre-trained weights are available.
+    	Execute app.py from terminal
+    	View the page at localhost:5000 or http://127.0.0.1:5000/ in your browser.
+	Choose your input image (from anywhere on your PC), and click submit.
+    	A copy of the input image, and the output are stored directly in the same directory.
     
 
-Algorithms and Resources Used
+Algorithms and Resources Used:
+    
     1) Non-Maximal Suppression:
         Object detection involves figuring out multiple areas of interest and plotting certain 'bounding boxes' around them.
         NMS is a filtering process to select the best 'box' or boundary that detects objects.
-
-        
+	
     2) Intersection-over-Union (IoU):
-        NMS uses IoU as an evaluation metric to predict bounding boxes. It computes the ratio between [Area of Overlapping] to [Area of Union], to separate bounding boxes that overlap with each other (boxes that identify the same object).
-
-        
+        NMS uses IoU as an evaluation metric to predict bounding boxes. It computes the ratio between [Area of Overlapping] to [Area of Union], to separate bounding boxes that 	overlap with each other (boxes that identify the same object).
 
     3) Research Paper and CNN:
         A previously published research paper that is similar to given problem statement was referenced and studied.
