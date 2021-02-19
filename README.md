@@ -11,17 +11,17 @@ Requirements -
 	Flask
 
 Testing for Jupyter Notebook:
-	Place the image required for testing in the same folder.
-    	Rename IMAGE_PATH variable (cell number 3) to name of the image that you want to test.
-     	Running cell number 5 initiates a download of a trained model (pre-trained weights). Downoaded file should be in the same directory of the notebook.
-    	Run all other cells as is, in the same order.
+	1)Place the image required for testing in the same folder.
+    	2)Rename IMAGE_PATH variable (cell number 3) to name of the image that you want to test.
+     	3)Running cell number 5 initiates a download of a trained model (pre-trained weights). Downoaded file should be in the same directory of the notebook.
+    	4)Run all other cells as is, in the same order.
 
 Testing for API:
-	Make sure pre-trained weights are available.
-    	Execute app.py from terminal
-    	View the page at localhost:5000 or http://127.0.0.1:5000/ in your browser.
-	Choose your input image (from anywhere on your PC), and click submit.
-    	A copy of the input image, and the output are stored directly in the same directory.
+	1)Make sure pre-trained weights are available.
+    	2)Execute app.py from terminal
+    	3)View the page at localhost:5000 or http://127.0.0.1:5000/ in your browser.
+	4)Choose your input image (from anywhere on your PC), and click submit.
+    	5)A copy of the input image, and the output are stored directly in the same directory.
     
 
 Algorithms and Resources Used:
@@ -40,6 +40,6 @@ Algorithms and Resources Used:
         Paper -  https://arxiv.org/abs/1612.08242
         
     4) Further References from a previous mini project (Harris Corner Detection implementation):
-        Colab Code : https://colab.research.google.com/drive/1S6v7arQHbQHgiNU-zns5HgHLfEPTcFAA?		     usp=sharing
+        Colab Code : https://colab.research.google.com/drive/1S6v7arQHbQHgiNU-zns5HgHLfEPTcFAA?usp=sharing
 
         
