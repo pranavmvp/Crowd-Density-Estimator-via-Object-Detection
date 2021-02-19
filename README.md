@@ -11,12 +11,14 @@ Instruction for Testing:
 		Flask
 
 	Testing for Jupyter Notebook:
+	
 		1)Place the image required for testing in the same folder.
     	2)Rename IMAGE_PATH variable (cell number 3) to name of the image that you want to test.
      	3)Running cell number 5 initiates a download of a trained model (pre-trained weights). Downoaded file should be in the same directory of the notebook.
     	4)Run all other cells as is, in the same order.
 
 	Testing for API:
+	
 		1)Make sure pre-trained weights are available.
 	    	2)Execute app.py from terminal
 	    	3)View the page at localhost:5000 or http://127.0.0.1:5000/ in your browser.
