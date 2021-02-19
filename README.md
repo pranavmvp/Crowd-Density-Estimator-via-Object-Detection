@@ -3,25 +3,25 @@ Image Segmentation and Crowd Density Estimator
 
 Instruction for Testing:
 
-Requirements -
-        Numpy
-        PyTorch
-        CV2
-        Matplotlib
-	Flask
+	Requirements -
+        	Numpy
+        	PyTorch
+        	CV2
+        	Matplotlib
+		Flask
 
-Testing for Jupyter Notebook:
-	1)Place the image required for testing in the same folder.
-    	2)Rename IMAGE_PATH variable (cell number 3) to name of the image that you want to test.
-     	3)Running cell number 5 initiates a download of a trained model (pre-trained weights). Downoaded file should be in the same directory of the notebook.
-    	4)Run all other cells as is, in the same order.
+	Testing for Jupyter Notebook:
+		1)Place the image required for testing in the same folder.
+    		2)Rename IMAGE_PATH variable (cell number 3) to name of the image that you want to test.
+     		3)Running cell number 5 initiates a download of a trained model (pre-trained weights). Downoaded file should be in the same directory of the notebook.
+    		4)Run all other cells as is, in the same order.
 
-Testing for API:
-	1)Make sure pre-trained weights are available.
-    	2)Execute app.py from terminal
-    	3)View the page at localhost:5000 or http://127.0.0.1:5000/ in your browser.
-	4)Choose your input image (from anywhere on your PC), and click submit.
-    	5)A copy of the input image, and the output are stored directly in the same directory.
+	Testing for API:
+		1)Make sure pre-trained weights are available.
+	    	2)Execute app.py from terminal
+	    	3)View the page at localhost:5000 or http://127.0.0.1:5000/ in your browser.
+		4)Choose your input image (from anywhere on your PC), and click submit.
+	    	5)A copy of the input image, and the output are stored directly in the same directory.
     
 
 Algorithms and Resources Used:
