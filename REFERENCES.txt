@@ -1,0 +1,28 @@
+References and Tutorials
+            
+	Non-Maximal-Supression:
+		
+		https://www.analyticsvidhya.com/blog/2020/08/selecting-the-right-bounding-box-using-non-			max-suppression-with-implementation/
+	        https://www.youtube.com/watch?v=YDkjWEN8jNA&t=682s&ab_channel=AladdinPersson
+	        https://www.youtube.com/watch?v=VAo84c1hQX8&t=277s&ab_channel=DeepLearningAI
+
+
+       Intersection-Over-Union:
+          
+		https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-		detection/
+	          https://gist.github.com/meyerjo/dd3533edc97c81258898f60d8978eddc
+	          https://www.youtube.com/watch?v=ANIzQ5G-XPE&ab_channel=DeepLearningAI
+
+
+Tutorial for implementation of research paper - https://www.youtube.com/watch?v=n9_XyCGr-MI&t=4s&ab_channel=AladdinPersson
+
+
+NMS for Harris Corner Detection
+
+https://stackoverflow.com/questions/51740695/non-maximum-suppression-in-corner-detection
+        https://docs.opencv.org/3.4/d4/d7d/tutorial_harris_detector.html
+
+
+
+Flask
+https://pythonbasics.org/flask-template-data/
