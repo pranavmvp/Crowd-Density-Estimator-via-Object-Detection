@@ -1,4 +1,3 @@
-Aiotize Internship Task - 
 Image Segmentation and Crowd Density Estimator
 
 Instruction for Testing:
